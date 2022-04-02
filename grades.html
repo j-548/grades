@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Grade Conversion</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+  <nav>
+  </nav>
+
+  <main>
+    <!-- convert numeric grade average into a letter grade -->
+    <div class="col-25 login-page">
+
+      <div  class="gradeForm">
+
+        <h2>Grade Conversion</h2>
+
+        <!-- input field for grade average -->
+        <label for="">Input Grade Average</label>
+        <input class="center txtCenter" id="gradeAverage" name="gradeAverage" value="">
+
+        <!-- displays grade -->
+        <p>Your Grade is:</p>
+        <div class="letter center" id="letterDiv">
+
+        </div>
+
+        <button class="submitBtn col-50" type="submit" onclick="convertGrade()" name="button" id="convert">Convert</button>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+  </footer>
+  <script type="text/javascript" src="js/gradeScript.js"></script>
+</body>
+
+</html>
